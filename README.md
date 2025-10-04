@@ -37,5 +37,17 @@ A quick reference for beginners and experienced developers to understand the mos
 
 ---
 
+### Summary Table
+
+| **Category** | **Range** | **Meaning**                   | **Example**                             |
+|--------------|-----------|-------------------------------|-----------------------------------------|
+| **1xx**      | 100–199   | Informational                 | 100 Continue                            |
+| **2xx**      | 200–299   | Success                       | 200 OK, 201 Created                     |
+| **3xx**      | 300–399   | Redirection                   | 301 Moved Permanently, 304 Not Modified |
+| **4xx**      | 400–499   | Client Errors                 | 400 Bad Request, 404 Not Found          |
+| **5xx**      | 500–599   | Server Errors                 | 500 Internal Server Error, 503 Service Unavailable |
+
+---
+
 ### Why this matters
 Knowing these codes helps you debug faster, write clearer APIs, and communicate effectively between frontend and backend. Keep this cheatsheet handy while building or troubleshooting your applications.
